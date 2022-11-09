@@ -6,7 +6,7 @@ import JobsBoard from "../components/pages/JobsBoard/JobsBoard";
 const AllRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<JobsBoard />} />
+      <Route path="/test-project-joblist" element={<JobsBoard />} />
       <Route path="/jobpage/:id" element={<JobPage />} />
     </Routes>
   );
