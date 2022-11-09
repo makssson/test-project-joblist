@@ -1,0 +1,81 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr 1fr;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.cardPicture {
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  margin-left: 16px;
+}
+
+.cardInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.625px;
+  color: #3a4562;
+  cursor: pointer;
+}
+
+.cardName,
+.cardAdress {
+  font-family: "Poppins", sans-serif;
+  line-height: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.23619px;
+  color: #878d9d;
+}
+
+.cardPostDate {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.23619px;
+  color: #878d9d;
+  text-align: center;
+}
+
+@media screen and (max-width: 1190px) and (min-width: 396px) {
+  .cardContainer {
+    column-gap: 20px;
+    background: #eff0f5;
+  }
+
+  .cardTitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .cardPicture {
+    width: 65px;
+    height: 65px;
+  }
+
+  .cardPostDate {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.206667px;
+  }
+
+  .cardAdress {
+    line-height: 17px;
+  }
+}

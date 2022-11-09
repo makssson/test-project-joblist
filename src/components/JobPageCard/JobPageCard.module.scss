@@ -1,0 +1,283 @@
+.cardWrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 130px;
+  padding: 0 15px;
+}
+
+.cardTitles {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.413333px;
+  color: #3a4562;
+  padding-bottom: 40px;
+}
+
+.cardTitlesAdditional {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.413333px;
+  color: #3a4562;
+  padding-bottom: 20px;
+  margin-top: 130px;
+}
+
+.cardApply {
+  padding: 18px 30px;
+  background: #384564;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.cardTitleSalary {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.75px;
+  color: #3a4562;
+}
+
+.cardSalary {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.625px;
+  color: #3a4562;
+}
+
+.cardSalarySpan {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #3a4562;
+  font-stretch: 100;
+}
+
+.cardPostDate {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: rgba(56, 65, 93, 0.355988);
+  font-stretch: 100;
+}
+
+.cardDescription {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #3a4562;
+  font-stretch: 100;
+  margin-bottom: 60px;
+}
+
+.cardTypeTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #3a4562;
+  font-stretch: 100;
+}
+
+.cardTypeWrapper {
+  display: flex;
+  column-gap: 8px;
+}
+
+.cardType {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.457143px;
+  color: #55699e;
+  padding: 16px 10%;
+  background: rgba(161, 177, 219, 0.317343);
+  border: 1px solid rgba(85, 105, 158, 0.3);
+  border-radius: 8px;
+}
+
+.cardBenefitsWrapper {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 90px;
+}
+
+.cardBenefitsTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #3a4562;
+  font-stretch: 100;
+  margin-top: 23px;
+}
+
+.cardBenefits {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #988b49;
+  padding: 16px 10%;
+  background: rgba(255, 207, 0, 0.15);
+  border: 1px solid #ffcf00;
+  border-radius: 8px;
+}
+
+.cardImagesWrapper {
+  margin-bottom: 90px;
+}
+
+.cardImage {
+  width: 200px;
+  height: 115px;
+  margin-right: 10px;
+}
+
+.cardReturnButtonWrapper {
+  transform: translateX(-25px);
+}
+
+.cardReturnButton {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3a4562;
+  padding: 18px 40px;
+  background: #47516b25;
+  border-radius: 8px;
+  position: relative;
+}
+
+.cardReturnButton::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 3px;
+  background: #384564;
+  top: 27%;
+  left: 10%;
+  transform: rotate(45deg);
+  border-radius: 10px;
+}
+
+.cardReturnButton::after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 3px;
+  background: #384564;
+  top: 46%;
+  left: 10%;
+  transform: rotate(-45deg);
+  border-radius: 10px;
+}
+
+.cardTitlesContacts {
+  display: none;
+}
+
+.cardContactWrapper {
+  max-width: 372px;
+}
+
+.cardContactInfo {
+  background: #2a3047;
+  border-radius: 8px 8px 0px 0px;
+  padding: 30px 60px;
+  margin-top: 20px;
+}
+
+.cardContactName {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.625px;
+  color: #e7eaf0;
+}
+
+.cardContactAddress,
+.cardContactNumber,
+.cardContactMail {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #e8ebf3;
+  font-stretch: 100;
+}
+
+@media screen and (max-width: 1190px) and (min-width: 396px) {
+  .cardWrapper {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .cardContactWrapper {
+    max-width: 372px;
+    margin-top: 65px;
+  }
+
+  .cardTitlesContacts {
+    display: inline;
+  }
+
+  .cardReturnButtonWrapper {
+    transform: none;
+  }
+
+  .cardTitleSalary {
+    display: flex;
+    flex-direction: column;
+  }
+}
