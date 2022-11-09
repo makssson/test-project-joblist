@@ -101,7 +101,7 @@ const JobPageCard = (props: Props) => {
               <img className={style.cardImage} src={pictures[2]} alt="third" />
             </div>
             <div className={style.cardReturnButtonWrapper}>
-              <Link to="/">
+              <Link to="/test-project-joblist">
                 <span className={style.cardReturnButton}>
                   Return to job board
                 </span>
